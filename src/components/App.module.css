@@ -1,0 +1,25 @@
+.navBar {
+  display: flex;
+  background-color: #9147ff;
+  margin: 0;
+  gap: 10px;
+  box-shadow: 2px 2px 1px #888888;
+  padding-left: 10px;
+}
+
+.navLink {
+  list-style: none;
+  list-style-type: none;
+  padding: 15px;
+  font-weight: 700;
+  color: #f6f6f6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover {
+  background-color: rgb(217, 182, 250);
+}
