@@ -1,0 +1,25 @@
+.homeContainer a {
+  color: rgb(106, 0, 205);
+}
+
+.homeHeader {
+  text-align: center;
+  margin-left: 40px;
+  color: rgb(160, 90, 226);
+}
+
+.movieList {
+  list-style: circle;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.movieListItem {
+  padding: 3px;
+  font-weight: 500;
+  color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+}
