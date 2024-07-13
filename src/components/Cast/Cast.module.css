@@ -1,0 +1,28 @@
+.cast {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+.castItem {
+  width: fit-content;
+  align-items: center;
+}
+
+.actorImage {
+  height: 30vh;
+}
+
+.actorDetails {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.actorName {
+  font-size: 15px;
+  font-weight: 500;
+}
