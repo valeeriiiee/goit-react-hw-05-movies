@@ -1,0 +1,33 @@
+.moviesContainer ul {
+  list-style: circle;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.moviesContainer a {
+  color: blueviolet;
+}
+
+.moviesItem {
+  padding: 3px;
+  font-weight: 500;
+}
+
+.searchButton {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 30px;
+  background-color: #9147ff;
+  color: white;
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.searchButton:hover {
+  background-color: rgb(217, 182, 250);
+}
