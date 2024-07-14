@@ -48,7 +48,7 @@ const MovieDetails = () => {
             {movie.title}&nbsp;({releaseYear})
           </h2>
           <p className={styles.userScore}>
-            User Score: {movie.vote_average * 10}%
+            User Score: {(movie.vote_average * 10).toFixed(2)}%
           </p>
           <h3 className={styles.detailsHeader}>Overview</h3>
           <p>{movie.overview}</p>
