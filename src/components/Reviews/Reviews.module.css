@@ -1,0 +1,13 @@
+.reviews {
+  list-style-type: circle;
+}
+
+.reviewsAuthor {
+  font-size: 14px;
+}
+
+.reviewsItem {
+  font-size: 14px;
+  width: 90vw;
+  text-align: justify;
+}
