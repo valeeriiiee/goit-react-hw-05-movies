@@ -16,7 +16,7 @@ const Movies = ({ query: initialQuery = '', initialMovies = [] }) => {
 
   return (
     <div className={styles.moviesContainer}>
-      <form onSubmit={handleSearch}>
+      <form onSubmit={handleSearch} className={styles.searchForm}>
         <input
           type="text"
           value={query}
