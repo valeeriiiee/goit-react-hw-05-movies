@@ -23,18 +23,20 @@ const Reviews = ({ initialReviews = [] }) => {
   return (
     <div className={styles.container}>
       {reviews.length === 0 ? (
-        <p>There are no reviews for this movie</p>
+        <p className={styles.reviewsItem}>
+          There are no reviews for this movie
+        </p>
       ) : (
-        <ul>
+        <ul className={styles.reviews}>
           {reviews.map(review => (
             <li key={review.id}>
-              <p>
+              <p className={styles.reviewsAuthor}>
                 <strong>
                   Author:&nbsp;
                   {review.author}
                 </strong>
               </p>
-              <p>{review.content}</p>
+              <p className={styles.reviewsItem}>{review.content}</p>
             </li>
           ))}
         </ul>
